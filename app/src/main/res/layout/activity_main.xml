@@ -35,7 +35,7 @@
         android:layout_marginRight="32dp">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editPrecoAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,7 +53,7 @@
         android:layout_marginRight="32dp">
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editPrecoGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -69,10 +69,11 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="14dp"
         android:layout_marginRight="32dp"
+        android:onClick="calcularPreco"
         android:text="Calcular" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
